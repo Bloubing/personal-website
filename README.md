@@ -1,35 +1,7 @@
-# migration-vue
+# Site personnel
 
-This template should help get you started developing with Vue 3 in Vite.
+Le site est disponible à l'adresse : https://www.bloubing.com/
 
-## Recommended IDE Setup
+## Présentation
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+[Bloubing](https://www.bloubing.com/) est mon site personnel que j'utilise en tant que portfolio pour mes projets. Ce site est réalisé avec Vue et Tailwind.
