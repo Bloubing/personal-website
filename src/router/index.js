@@ -19,33 +19,53 @@ const router = createRouter({
       path: '/projects',
       name: 'projects.index',
       component: ProjectIndex,
+      meta: { title: 'Projets' },
     },
     {
       path: '/projects/recipes',
       name: 'projects.recipes',
       component: ProjectRecipes,
+      meta: { title: 'Recettes' },
     },
     {
       path: '/projects/innovguide',
       name: 'projects.innovguide',
+      meta: { title: 'InnovGuide' },
       component: ProjectInnovGuide,
     },
     {
       path: '/projects/personal-website',
       name: 'projects.personal_website',
+      meta: { title: 'Site personnel' },
       component: ProjectPersonalWebsite,
     },
     {
       path: '/projects/self-hosting',
       name: 'projects.self_hosting',
+      meta: { title: 'Auto-hébergement' },
       component: ProjectSelfHosting,
     },
     {
       path: '/about',
       name: 'about',
+      meta: { title: 'À propos' },
       component: AboutPage,
     },
   ],
+})
+
+router.beforeEach((to, from, next) => {
+  // Default title
+  let pageTitle = 'Bloubing'
+
+  if (to.meta.title) {
+    let dynamicTitle = to.meta.title
+    pageTitle = `${dynamicTitle} - ${pageTitle}`
+  }
+
+  document.title = pageTitle
+
+  next()
 })
 
 export default router
