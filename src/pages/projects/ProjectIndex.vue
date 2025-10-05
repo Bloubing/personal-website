@@ -10,24 +10,28 @@ import { RouterLink } from 'vue-router'
       <div class="mx-auto max-w-[50ch] sm:max-w-[65ch]">
         <Heading>Projets</Heading>
         <p class="mb-5">Cliquez sur un des projets pour en savoir plus :</p>
-        <ul class="flex list-none flex-col space-y-3 text-base sm:text-xl">
+        <ul class="flex flex-col space-y-3 text-base sm:text-xl">
           <li>
             -
-            <RouterLink to="/projects/innovguide" class="hover:underline">Innovguide</RouterLink>
+            <RouterLink to="/projects/innovguide" class="hover:underline text-blue-500"
+              >Stage Innovguide</RouterLink
+            >
           </li>
           <li>
             -
-            <RouterLink to="/projects/self-hosting" class="hover:underline"
+            <RouterLink to="/projects/self-hosting" class="hover:underline text-blue-500"
               >Auto-hébergement</RouterLink
             >
           </li>
           <li>
             -
-            <RouterLink to="projects/recipes" class="hover:underline">Recettes</RouterLink>
+            <RouterLink to="projects/recipes" class="hover:underline text-blue-500"
+              >Recettes</RouterLink
+            >
           </li>
           <li>
             -
-            <RouterLink to="projects/personal-website" class="hover:underline"
+            <RouterLink to="projects/personal-website" class="hover:underline text-blue-500"
               >Site personnel</RouterLink
             >
           </li>

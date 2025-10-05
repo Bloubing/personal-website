@@ -8,7 +8,7 @@ import Layout from '@/shared/DefaultLayout.vue'
     <div class="mx-5 flex">
       <div class="mx-auto max-w-[50ch] space-y-5 sm:max-w-[65ch]">
         <div class="space-y-3">
-          <Heading>InnovGuide</Heading>
+          <Heading>Stage InnovGuide</Heading>
 
           <h3 class="text-lg font-bold sm:text-xl">Présentation</h3>
           <p>
@@ -32,7 +32,7 @@ import Layout from '@/shared/DefaultLayout.vue'
           <h3 class="text-lg font-bold sm:text-xl">Correction de bugs</h3>
           <p>
             J'ai corrigé plusieurs bugs sur le front-office comme l'affichage de modaux sur une
-            carte interactive de recommendations touristiques, ou encore la correction de
+            carte interactive de recommandations touristiques, ou encore la correction de
             l'affichage de certains composants sur la page de bienvenue du guide digital. J'ai aussi
             fourni une traduction de l'anglais vers le français sur le back-office. Enfin, j'ai
             rédigé de la documentation technique sur mes tâches pour aider à la collaboration au
