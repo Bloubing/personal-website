@@ -21,7 +21,7 @@ import Layout from '@/shared/DefaultLayout.vue'
           <ul class="flex flex-col space-y-4">
             <li>
               <a
-                href="https://github.com/Bloubing/personal-website"
+                href="https://github.com/Bloubing/bloubing.github.io"
                 class="text-blue-500 flex space-x-1 hover:underline"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="size-6">
